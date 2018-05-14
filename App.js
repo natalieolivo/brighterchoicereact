@@ -9,7 +9,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = { text: ' ' };
-    this.socket = SocketIOClient('http://localhost:3000', {
+    this.socket = SocketIOClient('https://serene-citadel-98793.herokuapp.com/', {
       transports: ['websocket'] // you need to explicitly tell it to use websockets
     });
 
