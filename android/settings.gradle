@@ -1,0 +1,3 @@
+rootProject.name = 'brighterchoicereact'
+
+include ':app'
